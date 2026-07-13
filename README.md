@@ -1,16 +1,74 @@
-# React + Vite
+# Real Estate Property Listing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Real Estate Property Listing web application built using React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://real-estate-property-listing-bashee-pi.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/basheer1711/real-estate-property-listing
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive Home Page
+- Hero Section
+- Property Listings
+- Search by Property Name, City and Location
+- Property Type Filter
+- Bedroom Filter
+- Price Range Filter
+- Sort by Price (Low to High / High to Low)
+- Property Details Page
+- Responsive Design for Desktop, Tablet and Mobile
+
+## Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React Icons
+- Local JSON Data
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/basheer1711/real-estate-property-listing.git
+```
+
+Go to the project folder:
+
+```bash
+cd real-estate-property-listing
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```
+src/
+│── components/
+│── pages/
+│── data/
+│── App.jsx
+│── main.jsx
+```
+
+## Author
+
+Mohammad Basheer
