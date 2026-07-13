@@ -1,0 +1,23 @@
+import { FaSearch } from "react-icons/fa";
+
+function SearchBar({ searchTerm, setSearchTerm }) {
+  return (
+    <div className="max-w-4xl mx-auto -mt-8 px-6">
+      <div className="bg-white shadow-lg rounded-xl p-4 flex items-center">
+
+        <FaSearch className="text-gray-500 mr-3" />
+
+        <input
+          type="text"
+          placeholder="Search by property name, city or location..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full outline-none"
+        />
+
+      </div>
+    </div>
+  );
+}
+
+export default SearchBar;
