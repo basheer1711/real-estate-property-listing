@@ -12,7 +12,7 @@ function SearchBar({ searchTerm, setSearchTerm }) {
           placeholder="Search by property name, city or location..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full outline-none"
+          className="w-full rounded-2xl shadow-xl border border-gray-200 px-6 py-5 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
 
       </div>

@@ -67,10 +67,13 @@ function Home() {
     <div className="bg-gray-100 min-h-screen">
       <Navbar />
       <Hero />
-      <SearchBar
+      <div className="-mt-16 relative z-20 max-w-4xl mx-auto px-6">
+        <SearchBar
   searchTerm={searchTerm}
   setSearchTerm={setSearchTerm}
-/>
+/></div>
+<div className="max-w-7xl mx-auto px-6 mt-10">
+
 <FilterSection
   propertyType={propertyType}
   setPropertyType={setPropertyType}
@@ -80,7 +83,7 @@ function Home() {
   setPriceRange={setPriceRange}
   sortBy={sortBy}
   setSortBy={setSortBy}
-/>
+/></div>
       <PropertyGrid properties={filteredProperties} />
       <Footer />
       </div>
